@@ -5,7 +5,22 @@
     <projectFile profileName="IIS Express">CwkBooking.Api/CwkBooking.Api.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04ef0c0f-f025-4266-9fbf-b43103725155" name="Changes" comment="" />
+    <list default="true" id="04ef0c0f-f025-4266-9fbf-b43103725155" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CwkBooking.Domain/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CwkBooking.Api/Controllers/HotelsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CwkBooking.Domain/Models/Reservation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CwkBooking.Domain/Models/Room.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CwkBooking.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CwkBooking.Domain/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CwkBooking.Domain/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CwkBooking.Api/bin/Debug/net5.0/CwkBooking.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CwkBooking.Api/bin/Debug/net5.0/CwkBooking.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CwkBooking.Api/bin/Debug/net5.0/CwkBooking.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CwkBooking.Api/bin/Debug/net5.0/CwkBooking.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CwkBooking.Api/bin/Debug/net5.0/ref/CwkBooking.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CwkBooking.Api/bin/Debug/net5.0/ref/CwkBooking.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CwkBooking.Api/obj/Debug/net5.0/CwkBooking.Api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CwkBooking.Api/obj/Debug/net5.0/CwkBooking.Api.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CwkBooking.Api/obj/Debug/net5.0/CwkBooking.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CwkBooking.Api/obj/Debug/net5.0/CwkBooking.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CwkBooking.Api/obj/Debug/net5.0/CwkBooking.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CwkBooking.Api/obj/Debug/net5.0/CwkBooking.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CwkBooking.Api/obj/Debug/net5.0/ref/CwkBooking.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CwkBooking.Api/obj/Debug/net5.0/ref/CwkBooking.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CwkBooking.Domain/Models/Hotel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CwkBooking.Domain/Models/Hotel.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +30,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2azyOgU2QmER62u3vDFLmhCiThj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -67,14 +83,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705335673027</updated>
-      <workItem from="1705335674423" duration="3180000" />
+      <workItem from="1705335674423" duration="5890000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
