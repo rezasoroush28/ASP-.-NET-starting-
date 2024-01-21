@@ -27,3 +27,5 @@ D:\ASp\CwkBooking.Domain\CwkBooking.Api\obj\Debug\net5.0\CwkBooking.Api.dll
 D:\ASp\CwkBooking.Domain\CwkBooking.Api\obj\Debug\net5.0\ref\CwkBooking.Api.dll
 D:\ASp\CwkBooking.Domain\CwkBooking.Api\obj\Debug\net5.0\CwkBooking.Api.pdb
 D:\ASp\CwkBooking.Domain\CwkBooking.Api\obj\Debug\net5.0\CwkBooking.Api.genruntimeconfig.cache
+D:\ASp\CwkBooking.Domain\CwkBooking.Api\bin\Debug\net5.0\CwkBooking.Domain.dll
+D:\ASp\CwkBooking.Domain\CwkBooking.Api\bin\Debug\net5.0\CwkBooking.Domain.pdb
