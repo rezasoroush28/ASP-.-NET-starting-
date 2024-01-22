@@ -9,15 +9,17 @@ namespace CwkBooking.Api.Controllers
     [Route("[controller]")]
     public class HotelsController : Controller
     {
-        public HotelsController()
+        private readonly DataSource _dataSource;
+        public HotelsController(DataSource dataSource)
         {
-            
+            _dataSource = dataSource;
         }
+        
         [HttpGet]
         public IActionResult ShowAllHotels()
         {
-            var hotels = GetHotels();
-            return Ok(GetHotels());
+            var hotels = _dataSource.Hotels;
+            return Ok(_dataSource.Hotels);
         }
         
         
@@ -27,7 +29,7 @@ namespace CwkBooking.Api.Controllers
         [HttpGet]
         public IActionResult GetHotelbyName(string name)
         {
-            var hotels = GetHotels();
+            var hotels = _dataSource.Hotels;
             var hotel = hotels.FirstOrDefault(h => h.Name == name);
             if (hotel == null)
             {
@@ -40,7 +42,7 @@ namespace CwkBooking.Api.Controllers
         [HttpPost]
         public IActionResult CreateHotel([FromBody] Hotel hotel)
         {
-            var hotels = GetHotels();
+            var hotels = _dataSource.Hotels;
             hotels.Add(hotel);
             return CreatedAtAction(nameof(GetHotelbyName), new { name = hotel.Name }, hotel);
         }
@@ -50,7 +52,7 @@ namespace CwkBooking.Api.Controllers
 
         public IActionResult UpdateHotel([FromBody] Hotel toBeUpdatedHotel , string name)
         {
-            var hotels = GetHotels();
+            var hotels = _dataSource.Hotels;
             var oldHotel = hotels.FirstOrDefault(h => h.Name == name);
             if (oldHotel == null)
             {
@@ -66,7 +68,7 @@ namespace CwkBooking.Api.Controllers
         [Route("{name}")]
         public IActionResult DeleteHotel(string name)
         {
-            var hotels = GetHotels();
+            var hotels = _dataSource.Hotels;
             var toBeDeletedHotel = hotels.FirstOrDefault(h => h.Name == name);
             if (toBeDeletedHotel == null)
             {
@@ -79,20 +81,6 @@ namespace CwkBooking.Api.Controllers
         }
         
         
-        private List<Hotel> GetHotels()
-        {
-            return new List<Hotel>
-            {
-                new Hotel
-                {
-                    HotelId = 1,
-                    Name = "Ghasr",
-                    Stars = 5,
-                    Address = "tehran - somwhere",
-                    City = "tehran",
-                    Country = "iran",
-                }
-            };
-        }
+        
     }
 }
